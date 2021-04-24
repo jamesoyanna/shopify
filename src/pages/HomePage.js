@@ -1,10 +1,13 @@
 import React from 'react';
+import {FeaturedProducts, Hero, Services, Contact } from "../components"
 
 const HomePage = () => {
     return (
         <main>
-       <h2>I am coding fine</h2>
-            
+            <Hero /> 
+            <FeaturedProducts /> 
+            <Services />
+            <Contact />   
         </main>
     );
 }
