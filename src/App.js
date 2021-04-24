@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navbar, Sidebar, Footer } from "./components";
 import {
   Home,
-  SingleProduct,
-  Cart,
-  Checkout,
-  Error,
-  About,
-  Products,
-  PrivateRoute,
+  // SingleProduct,
+  // Cart,
+  // Checkout,
+  // Error,
+  // About,
+  // Products,
+  // PrivateRoute,
   AuthWrapper,
 } from "./pages";
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/about">
+          {/* <Route path="/about">
             <About />
           </Route>
           <Route path="/cart">
@@ -36,8 +36,8 @@ function App() {
             <Checkout />
           </PrivateRoute>
           <Route path="*">
-            <Error />
-          </Route>
+            <Error /> */}
+          {/* </Route> */}
         </Switch>
         <Footer />
       </Router>
