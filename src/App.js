@@ -4,10 +4,10 @@ import { Navbar, Sidebar, Footer } from "./components";
 import {
   Home,
   SingleProduct,
-  // Cart,
+  Cart,
   // Checkout,
   // Error,
-  // About,
+   About,
   // Products,
   // PrivateRoute,
   AuthWrapper,
