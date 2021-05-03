@@ -3,7 +3,7 @@ import Home from "./HomePage";
  import SingleProduct from "./SingleProductPage";
 import About from "./AboutPage";
  import Cart from "./CartPage";
-// import Error from "./ErrorPage";
+ import Error from "./ErrorPage";
 // import Checkout from "./CheckoutPage";
 // import PrivateRoute from "./PrivateRoute";
 import AuthWrapper from "./AuthWrapper";
@@ -11,8 +11,8 @@ import AuthWrapper from "./AuthWrapper";
   Home,
    SingleProduct,
    Cart,
-     About,
-//   Error,
+  About,
+  Error,
 //   Checkout,
     Products,
 //   PrivateRoute,
