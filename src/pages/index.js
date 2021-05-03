@@ -4,8 +4,8 @@ import Home from "./HomePage";
 import About from "./AboutPage";
  import Cart from "./CartPage";
  import Error from "./ErrorPage";
-// import Checkout from "./CheckoutPage";
-// import PrivateRoute from "./PrivateRoute";
+ import Checkout from "./CheckoutPage";
+ import PrivateRoute from "./PrivateRoute";
 import AuthWrapper from "./AuthWrapper";
  export {
   Home,
@@ -13,7 +13,7 @@ import AuthWrapper from "./AuthWrapper";
    Cart,
   About,
   Error,
-//   Checkout,
+   Checkout,
     Products,
 //   PrivateRoute,
   AuthWrapper,
