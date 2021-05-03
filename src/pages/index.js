@@ -1,6 +1,6 @@
 import Home from "./HomePage";
- //import Products from "./ProductsPage";
-// import SingleProduct from "./SingleProductPage";
+ import Products from "./ProductsPage";
+ import SingleProduct from "./SingleProductPage";
 import About from "./AboutPage";
  import Cart from "./CartPage";
 // import Error from "./ErrorPage";
@@ -9,12 +9,12 @@ import About from "./AboutPage";
 import AuthWrapper from "./AuthWrapper";
  export {
   Home,
-//   SingleProduct,
+   SingleProduct,
    Cart,
      About,
 //   Error,
 //   Checkout,
- // Products,
+    Products,
 //   PrivateRoute,
   AuthWrapper,
 };
