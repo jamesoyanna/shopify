@@ -14,7 +14,7 @@ import Error from "./Error";
 //import ProductList from "./ProductList";
 // import Sort from "./Sort";
 // import Stars from "./Stars";
-// import CartContent from "./CarContent";
+ import CartContent from "./CarContent";
 import PageHero from "./PageHero";
 // import StripeCheckout from "./StripeCheckout";
  export {
@@ -34,7 +34,7 @@ import PageHero from "./PageHero";
 //   ProductList,
 //   Sort,
 //   Stars,
-//   CartContent,
+  CartContent,
      PageHero,
 //   StripeCheckout,
  };
