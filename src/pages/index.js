@@ -15,6 +15,6 @@ import AuthWrapper from "./AuthWrapper";
   Error,
    Checkout,
     Products,
-//   PrivateRoute,
+   PrivateRoute,
   AuthWrapper,
 };

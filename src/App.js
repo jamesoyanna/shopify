@@ -5,11 +5,11 @@ import {
   Home,
   SingleProduct,
   Cart,
-  // Checkout,
-  // Error,
+   Checkout,
+   Error,
    About,
-  // Products,
-  // PrivateRoute,
+   Products,
+   PrivateRoute,
   AuthWrapper,
 } from "./pages";
 function App() {
@@ -29,7 +29,7 @@ function App() {
           <Route path="/cart">
             <Cart />
           </Route>
-          {/*
+          
           <Route exact path="/products">
             <Products />
           </Route>
@@ -38,8 +38,8 @@ function App() {
             <Checkout />
           </PrivateRoute>
           <Route path="*">
-            <Error /> */}
-          {/* </Route> */}
+            <Error />
+           </Route>
         </Switch>
         <Footer />
       </Router>
